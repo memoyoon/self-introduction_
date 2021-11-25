@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    min-width: 992px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+  .back {
+    background-color: #858374;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    height: 27px;
+    line-height:27px; 
+  }
+
+  .back .info {
+    display: inline-block;
+    vertical-align: middle;
+    line-height:normal 
+   }
+ 
+  .header {
+      height: 60px;
+  }
+
+  .logo {
+    margin-left: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  a {
+    line-height: 60px;
+    list-style: none;
+    text-decoration: none;
+    color: #887874;
+    font-size: 17px;
+  }
+
+  .menu {
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+
+  .menu li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+  }
+  .menu li a{
+    font-size: 13px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #887874;
+    line-height: 60px;
+  
+  }
+
+  #logo img {
+    vertical-align: middle;
+  }
+  
+  a{
+    line-height: 60px;
+  }
+  
+  .hero-header {
+    text-align: center;
+    background-image: url("./images/jeju.JPG");
+    background-size: cover;
+    background-position: center center;
+    height: 670px;
+    line-height:670px; 
+  }
+
+
+.hero-header .info {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  line-height:normal 
+ }
+
+ 
+ .hero-header .info h1 {
+   font-size: 36px;
+   margin: 0;
+   margin-bottom: 13px;
+   color: white;
+   font-weight: 400;
+ }
+ 
+ .hero-header .info h2 {
+   font-size: 23px;
+   margin: 0;
+   margin-bottom: 60px;
+   color: white;
+   font-weight: 400;
+ }
+ 
+ .hero-header .info a {
+   font-size: 14px;
+   background-color: white;
+   color: #858374;
+   padding: 10px 40px;
+   text-decoration: none;
+   border-radius: 5px;
+ }
+
+ .footer {
+  text-align: center;
+  background-color:wheat
+ }
+
+  
